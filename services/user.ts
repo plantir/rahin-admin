@@ -1,14 +1,14 @@
-import { IQuiz } from '~/models/quiz'
 import { NuxtAxiosInstance } from 'vrwebdesign-nuxt/modules/nuxt-axios/types'
 import { BaseService } from './helper/BaseService'
-export default class TestAnswerService extends BaseService<IQuiz> {
+import { IUser } from '~/models/user'
+export default class UserService extends BaseService<IUser> {
   constructor(public $axios: NuxtAxiosInstance) {
-    super($axios, 'admin/test_answer')
+    super($axios, 'admin/users')
   }
 }
 
 declare module 'vue/types/vue' {
   interface NuxtServiceInstance {
-    test_answer: TestAnswerService
+    user: UserService
   }
 }

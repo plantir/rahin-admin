@@ -10,29 +10,14 @@ export default class NavigationService {
         to: '/'
       },
       {
-        icon: 'la-question',
-        title: 'سوالات',
-        to: '/questions'
+        icon: 'la-user',
+        title: 'کاربران',
+        to: '/users'
       },
       {
-        icon: 'la-user-md',
-        title: 'پزشکان',
-        to: '/doctors'
-      },
-      {
-        icon: 'la-send',
-        title: 'ارسال پیام',
-        to: '/send-message'
-      },
-      {
-        icon: 'la-question',
-        title: 'کوییز',
-        to: '/quiz'
-      },
-      {
-        icon: 'la-image',
-        title: 'جواب آزمایش',
-        to: '/test-answer'
+        icon: 'las la-blog',
+        title: 'مقاله ها',
+        to: '/blogs'
       }
     ]
   }

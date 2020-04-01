@@ -1,6 +1,3 @@
 import '../auth_user'
-import '../doctors'
-import '../questions'
-import '../quiz'
-import '../schedule_messages'
-import '../test_answer'
+import '../blog'
+import '../user'

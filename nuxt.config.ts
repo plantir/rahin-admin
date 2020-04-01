@@ -17,6 +17,7 @@ export default {
   mode: 'spa',
   server: {
     port: process.env.PORT
+    // host: '0.0.0.0'
   },
   axios: {
     proxy: true, // Can be also an object with default options
@@ -70,7 +71,7 @@ export default {
     'animate.css/animate.css',
     'vrwebdesign-nuxt/assets/style/main.scss'
   ],
-  plugins: ['~/plugins/vuetify.ts'],
+  plugins: ['~/plugins/vuetify.ts', '~/plugins/ckeditor.ts'],
   modules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/recaptcha',
